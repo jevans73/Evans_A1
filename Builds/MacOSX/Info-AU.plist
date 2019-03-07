@@ -8,11 +8,11 @@
     <key>CFBundleIconFile</key>
     <string></string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.ClassDemoFirstAP</string>
+    <string>com.yourcompany.Evans_A1</string>
     <key>CFBundleName</key>
-    <string>ClassDemoFirstAP</string>
+    <string>Evans_A1</string>
     <key>CFBundleDisplayName</key>
-    <string>ClassDemoFirstAP</string>
+    <string>Evans_A1</string>
     <key>CFBundlePackageType</key>
     <string>BNDL</string>
     <key>CFBundleSignature</key>
@@ -29,11 +29,11 @@
     <array>
       <dict>
         <key>name</key>
-        <string>yourcompany: ClassDemoFirstAP</string>
+        <string>yourcompany: Evans_A1</string>
         <key>description</key>
-        <string>ClassDemoFirstAP</string>
+        <string>Evans_A1</string>
         <key>factoryFunction</key>
-        <string>ClassDemoFirstAPAUFactory</string>
+        <string>Evans_A1AUFactory</string>
         <key>manufacturer</key>
         <string>Manu</string>
         <key>type</key>

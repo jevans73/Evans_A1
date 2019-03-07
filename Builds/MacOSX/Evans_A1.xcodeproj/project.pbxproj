@@ -277,25 +277,25 @@
 			path = "../../JuceLibraryCode/include_juce_opengl.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		4CC163F018500907C4812078 = {
+		598D4047A4C4BF9A1347E7BB = {
 			isa = PBXFileReference;
-			lastKnownFileType = text.plist.xml;
-			name = ClassDemoFirstAP.entitlements;
-			path = ClassDemoFirstAP.entitlements;
+			lastKnownFileType = sourcecode.c.h;
+			name = PluginProcessor.h;
+			path = ../../Source/PluginProcessor.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		6575C329788EDA34198C1468 = {
 			isa = PBXFileReference;
 			explicitFileType = wrapper.cfbundle;
 			includeInIndex = 0;
-			path = ClassDemoFirstAP.vst3;
+			path = "Evans_A1.vst3";
 			sourceTree = "BUILT_PRODUCTS_DIR";
 		};
 		2403FF916117051310C0F961 = {
 			isa = PBXFileReference;
 			explicitFileType = wrapper.cfbundle;
 			includeInIndex = 0;
-			path = ClassDemoFirstAP.component;
+			path = "Evans_A1.component";
 			sourceTree = "BUILT_PRODUCTS_DIR";
 		};
 		48C47DB3E4F8894D64B403D6 = {
@@ -311,13 +311,6 @@
 			name = "juce_audio_plugin_client";
 			path = "/Users/johnevans/Documents/Sdks/JUCE/modules/juce_audio_plugin_client";
 			sourceTree = "<absolute>";
-		};
-		598D4047A4C4BF9A1347E7BB = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = PluginProcessor.h;
-			path = ../../Source/PluginProcessor.h;
-			sourceTree = "SOURCE_ROOT";
 		};
 		63BF38A6D0E919634D60DC9C = {
 			isa = PBXFileReference;
@@ -407,7 +400,7 @@
 			isa = PBXFileReference;
 			explicitFileType = wrapper.application;
 			includeInIndex = 0;
-			path = ClassDemoFirstAP.app;
+			path = "Evans_A1.app";
 			sourceTree = "BUILT_PRODUCTS_DIR";
 		};
 		9226414354A0295D70C1F394 = {
@@ -456,7 +449,7 @@
 			isa = PBXFileReference;
 			explicitFileType = archive.ar;
 			includeInIndex = 0;
-			path = libClassDemoFirstAP.a;
+			path = "libEvans_A1.a";
 			sourceTree = "BUILT_PRODUCTS_DIR";
 		};
 		B4EF8E944A52B77A2BC95BEC = {
@@ -485,6 +478,13 @@
 			lastKnownFileType = sourcecode.cpp.objcpp;
 			name = "include_juce_gui_extra.mm";
 			path = "../../JuceLibraryCode/include_juce_gui_extra.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BF446A03427F9C3A500BF90A = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Evans_A1.entitlements";
+			path = "Evans_A1.entitlements";
 			sourceTree = "SOURCE_ROOT";
 		};
 		C12953D70FE5AE8F8B2B5037 = {
@@ -615,7 +615,7 @@
 			children = (
 				5164565E17153C5D2DA802E4,
 			);
-			name = ClassDemoFirstAP;
+			name = "Evans_A1";
 			sourceTree = "<group>";
 		};
 		2619DA15A387DF8C58AC094D = {
@@ -713,7 +713,7 @@
 		4314E335A14D7D7F40EA07F0 = {
 			isa = PBXGroup;
 			children = (
-				4CC163F018500907C4812078,
+				BF446A03427F9C3A500BF90A,
 				C9479426338A1E6AC3FBD667,
 				2619DA15A387DF8C58AC094D,
 				90BBCCB6EF5F2EB2B97CD19C,
@@ -780,9 +780,9 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_LDFLAGS = "-bundle -lClassDemoFirstAP";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ClassDemoFirstAP;
-				PRODUCT_NAME = "ClassDemoFirstAP";
+				OTHER_LDFLAGS = "-bundle -lEvans_A1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Evans_A1;
+				PRODUCT_NAME = "Evans_A1";
 				USE_HEADERMAP = NO;
 				WRAPPER_EXTENSION = vst3;
 			};
@@ -832,9 +832,9 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_LDFLAGS = "-bundle -lClassDemoFirstAP";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ClassDemoFirstAP;
-				PRODUCT_NAME = "ClassDemoFirstAP";
+				OTHER_LDFLAGS = "-bundle -lEvans_A1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Evans_A1;
+				PRODUCT_NAME = "Evans_A1";
 				USE_HEADERMAP = NO;
 				WRAPPER_EXTENSION = vst3;
 			};
@@ -882,10 +882,10 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_LDFLAGS = "-bundle -lClassDemoFirstAP";
+				OTHER_LDFLAGS = "-bundle -lEvans_A1";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\"";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ClassDemoFirstAP;
-				PRODUCT_NAME = "ClassDemoFirstAP";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Evans_A1;
+				PRODUCT_NAME = "Evans_A1";
 				USE_HEADERMAP = NO;
 				WRAPPER_EXTENSION = component;
 			};
@@ -935,10 +935,10 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_LDFLAGS = "-bundle -lClassDemoFirstAP";
+				OTHER_LDFLAGS = "-bundle -lEvans_A1";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\"";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ClassDemoFirstAP;
-				PRODUCT_NAME = "ClassDemoFirstAP";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Evans_A1;
+				PRODUCT_NAME = "Evans_A1";
 				USE_HEADERMAP = NO;
 				WRAPPER_EXTENSION = component;
 			};
@@ -981,9 +981,9 @@
 				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
 				INFOPLIST_PREPROCESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_LDFLAGS = "-lClassDemoFirstAP";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ClassDemoFirstAP;
-				PRODUCT_NAME = "ClassDemoFirstAP";
+				OTHER_LDFLAGS = "-lEvans_A1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Evans_A1;
+				PRODUCT_NAME = "Evans_A1";
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -1027,9 +1027,9 @@
 				INFOPLIST_PREPROCESS = NO;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_LDFLAGS = "-lClassDemoFirstAP";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ClassDemoFirstAP;
-				PRODUCT_NAME = "ClassDemoFirstAP";
+				OTHER_LDFLAGS = "-lEvans_A1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Evans_A1;
+				PRODUCT_NAME = "Evans_A1";
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
@@ -1071,8 +1071,8 @@
 				);
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ClassDemoFirstAP;
-				PRODUCT_NAME = "ClassDemoFirstAP";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Evans_A1;
+				PRODUCT_NAME = "Evans_A1";
 				SKIP_INSTALL = YES;
 				USE_HEADERMAP = NO;
 			};
@@ -1117,8 +1117,8 @@
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ClassDemoFirstAP;
-				PRODUCT_NAME = "ClassDemoFirstAP";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Evans_A1;
+				PRODUCT_NAME = "Evans_A1";
 				SKIP_INSTALL = YES;
 				USE_HEADERMAP = NO;
 			};
@@ -1164,7 +1164,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "ClassDemoFirstAP";
+				PRODUCT_NAME = "Evans_A1";
 				WARNING_CFLAGS = "-Wreorder";
 				ZERO_LINK = NO;
 			};
@@ -1208,7 +1208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PRODUCT_NAME = "ClassDemoFirstAP";
+				PRODUCT_NAME = "Evans_A1";
 				WARNING_CFLAGS = "-Wreorder";
 				ZERO_LINK = NO;
 			};
@@ -1259,8 +1259,8 @@
 				B7585A998834980AC9E6DE3D,
 				C54D9C26CDB4D779B8849FEC,
 			);
-			name = "ClassDemoFirstAP - All";
-			productName = ClassDemoFirstAP;
+			name = "Evans_A1 - All";
+			productName = "Evans_A1";
 		};
 		54D2BD8B90992A15296C44F7 = {
 			isa = XCConfigurationList;
@@ -1317,8 +1317,8 @@
 			dependencies = (
 				C54D9C26CDB4D779B8849FEC,
 			);
-			name = "ClassDemoFirstAP - VST3";
-			productName = ClassDemoFirstAP;
+			name = "Evans_A1 - VST3";
+			productName = "Evans_A1";
 			productReference = 6575C329788EDA34198C1468;
 			productType = "com.apple.product-type.bundle";
 		};
@@ -1389,8 +1389,8 @@
 			dependencies = (
 				C54D9C26CDB4D779B8849FEC,
 			);
-			name = "ClassDemoFirstAP - AU";
-			productName = ClassDemoFirstAP;
+			name = "Evans_A1 - AU";
+			productName = "Evans_A1";
 			productReference = 2403FF916117051310C0F961;
 			productType = "com.apple.product-type.bundle";
 		};
@@ -1449,8 +1449,8 @@
 			dependencies = (
 				C54D9C26CDB4D779B8849FEC,
 			);
-			name = "ClassDemoFirstAP - Standalone Plugin";
-			productName = ClassDemoFirstAP;
+			name = "Evans_A1 - Standalone Plugin";
+			productName = "Evans_A1";
 			productReference = 8D10DABAC20E11A0B02DA54E;
 			productType = "com.apple.product-type.application";
 		};
@@ -1495,8 +1495,8 @@
 			);
 			buildRules = ( );
 			dependencies = ( );
-			name = "ClassDemoFirstAP - Shared Code";
-			productName = ClassDemoFirstAP;
+			name = "Evans_A1 - Shared Code";
+			productName = "Evans_A1";
 			productReference = A6FBB2A4972E71E5FA593702;
 			productType = "com.apple.product-type.library.static";
 		};

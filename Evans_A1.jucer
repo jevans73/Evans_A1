@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="FjwaWG" name="ClassDemoFirstAP" projectType="audioplug" jucerVersion="5.4.3">
-  <MAINGROUP id="fc1LpG" name="ClassDemoFirstAP">
+<JUCERPROJECT id="FjwaWG" name="Evans_A1" projectType="audioplug" jucerVersion="5.4.3">
+  <MAINGROUP id="fc1LpG" name="Evans_A1">
     <GROUP id="{BB93C98E-9206-C91E-18BE-BC6E3569A30F}" name="Source">
       <FILE id="zcypdO" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>

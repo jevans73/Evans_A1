@@ -326,10 +326,10 @@
  #define JucePlugin_Enable_IAA             0
 #endif
 #ifndef  JucePlugin_Name
- #define JucePlugin_Name                   "ClassDemoFirstAP"
+ #define JucePlugin_Name                   "Evans_A1"
 #endif
 #ifndef  JucePlugin_Desc
- #define JucePlugin_Desc                   "ClassDemoFirstAP"
+ #define JucePlugin_Desc                   "Evans_A1"
 #endif
 #ifndef  JucePlugin_Manufacturer
  #define JucePlugin_Manufacturer           "yourcompany"
@@ -386,16 +386,16 @@
  #define JucePlugin_AUSubType              JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_AUExportPrefix
- #define JucePlugin_AUExportPrefix         ClassDemoFirstAPAU
+ #define JucePlugin_AUExportPrefix         Evans_A1AU
 #endif
 #ifndef  JucePlugin_AUExportPrefixQuoted
- #define JucePlugin_AUExportPrefixQuoted   "ClassDemoFirstAPAU"
+ #define JucePlugin_AUExportPrefixQuoted   "Evans_A1AU"
 #endif
 #ifndef  JucePlugin_AUManufacturerCode
  #define JucePlugin_AUManufacturerCode     JucePlugin_ManufacturerCode
 #endif
 #ifndef  JucePlugin_CFBundleIdentifier
- #define JucePlugin_CFBundleIdentifier     com.yourcompany.ClassDemoFirstAP
+ #define JucePlugin_CFBundleIdentifier     com.yourcompany.Evans_A1
 #endif
 #ifndef  JucePlugin_RTASCategory
  #define JucePlugin_RTASCategory           0
@@ -413,7 +413,7 @@
  #define JucePlugin_RTASDisableMultiMono   0
 #endif
 #ifndef  JucePlugin_AAXIdentifier
- #define JucePlugin_AAXIdentifier          com.yourcompany.ClassDemoFirstAP
+ #define JucePlugin_AAXIdentifier          com.yourcompany.Evans_A1
 #endif
 #ifndef  JucePlugin_AAXManufacturerCode
  #define JucePlugin_AAXManufacturerCode    JucePlugin_ManufacturerCode
@@ -437,7 +437,7 @@
  #define JucePlugin_IAASubType             JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_IAAName
- #define JucePlugin_IAAName                "yourcompany: ClassDemoFirstAP"
+ #define JucePlugin_IAAName                "yourcompany: Evans_A1"
 #endif
 #ifndef  JucePlugin_VSTNumMidiInputs
  #define JucePlugin_VSTNumMidiInputs       16
