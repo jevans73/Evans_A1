@@ -153,8 +153,13 @@ void ClassDemoFirstApAudioProcessor::processBlock (AudioBuffer<float>& buffer, M
     for (int channel = 0; channel < totalNumInputChannels; ++channel)
     {
         auto* channelData = buffer.getWritePointer (channel);
-
-        // ..do something to the data...
+        
+        for (int sample = 0; sample < 512; ++sample){
+            channelData[sample] = random();
+            // ..do something to the data...
+            
+        }
+        
     }
 }
 
